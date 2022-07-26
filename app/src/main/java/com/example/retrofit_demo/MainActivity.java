@@ -15,6 +15,8 @@ import com.example.retrofit_demo.response.DataResponse;
 import com.example.retrofit_demo.response.LocalData;
 import com.example.retrofit_demo.response.Location;
 
+import java.util.List;
+
 import io.reactivex.Observer;
 import io.reactivex.Scheduler;
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -29,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     LocalData localData = new LocalData();
     RecyclerView recyclerView;
     RecyclerViewAdapter recyclerViewAdapter;
-
+    //1123
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
